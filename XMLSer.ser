@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.14.1" class="java.beans.XMLDecoder">
+ <object class="Aufgabe01.Car">
+  <void property="engine">
+   <object class="Aufgabe01.Engine">
+    <void property="pistons">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="Aufgabe01.Piston">
+        <void property="thickness">
+         <double>457.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Aufgabe01.Piston">
+        <void property="thickness">
+         <double>7789.0</double>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="size">
+     <double>8.0</double>
+    </void>
+   </object>
+  </void>
+  <void property="id">
+   <int>4892</int>
+  </void>
+  <void property="model">
+   <string>mdl</string>
+  </void>
+  <void property="seats">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="Aufgabe01.Seat">
+      <void property="color">
+       <object class="java.lang.Enum" method="valueOf">
+        <class>Aufgabe01.Color</class>
+        <string>BLACK</string>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="Aufgabe01.Seat">
+      <void property="color">
+       <object class="java.lang.Enum" method="valueOf">
+        <class>Aufgabe01.Color</class>
+        <string>BROWN</string>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="wheels">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="Aufgabe01.Wheel"/>
+    </void>
+    <void method="add">
+     <object class="Aufgabe01.Wheel"/>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
